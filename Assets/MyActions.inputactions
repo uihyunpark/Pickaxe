@@ -1,0 +1,114 @@
+{
+    "name": "MyActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "ad5e794a-b1bb-4ddf-8a8b-12a351ecc7af",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "b3768fe7-33ef-46d8-8d4a-e3b15a1a77b3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Qskill",
+                    "type": "Button",
+                    "id": "e0a635bc-a0fa-4cd2-8f5f-088dba1a2b43",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Wskill",
+                    "type": "Button",
+                    "id": "a8cfaecb-8ebd-4e40-a0da-58edbc410171",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Eskill",
+                    "type": "Button",
+                    "id": "52859245-716f-4ae4-b0df-b2ded1b665c0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rskill",
+                    "type": "Button",
+                    "id": "a630bdb3-81f0-42bc-b3fb-ba794c0f0ab2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b24c1fff-97cb-47ec-b93c-1de46035dbca",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "282c1a4b-29dc-48d9-8c80-90428c39b7db",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Qskill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "243f37cb-820c-49fc-9778-9ad22d4713bc",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Wskill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa8d088b-e488-4420-a38d-981af4bcca9d",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eskill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c06143f8-06fa-48fd-8ce5-6d4a109473b4",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rskill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
