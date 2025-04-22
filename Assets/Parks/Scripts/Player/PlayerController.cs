@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
         var skill = skills[index];
 
-        object target = GetSkillTarget(skill.data); 
+        object target = GetSkillTarget(skill.data);
         Debug.Log("Target: " + target + "skill = " + skill.data.definition);
         skill.Use(transform, target);
     }
@@ -97,7 +97,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnQskill()
     {
-        TryUseSkill(0); 
+        TryUseSkill(0);
 
     }
     public void OnWskill()
@@ -115,7 +115,6 @@ public class PlayerController : MonoBehaviour
         TryUseSkill(3);
 
     }
-
 
 
 }

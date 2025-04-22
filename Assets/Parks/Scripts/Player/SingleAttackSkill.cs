@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEditor;
+using UnityEngine;
 
 internal class SingleAttackSkill : ISkillBehavior
 {
@@ -13,4 +15,5 @@ internal class SingleAttackSkill : ISkillBehavior
         float damage = data.damage * data.ratio;
         monster.TakeDamage(damage);
     }
+
 }
